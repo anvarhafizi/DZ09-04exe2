@@ -8,5 +8,14 @@ namespace _09_04exe2
         {
             
         }
+        interface Iplayable
+        {
+            void Play(); void Pause(); void stop();
+        }
+        
+        interface IRecordable
+        {
+            void Record(); void Pause(); void stop();
+        }
     }
 }
