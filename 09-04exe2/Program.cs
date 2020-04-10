@@ -6,11 +6,11 @@ namespace _09_04exe2
     {
         static void Main(string[] args)
         {
-           Player pl=new Player();
-           pl.Play();
-           (pl as IPlayable).Stop();
-           pl.Record();
-           (pl as IRecodable).Stop();
+           Player playing=new Player();
+           playing.Play();
+           (playing as IPlayable).Stop();
+           playing.Record();
+           (playing as IRecodable).Stop();
            Console.ReadKey();
         }
     }
